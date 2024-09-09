@@ -1,0 +1,105 @@
+.profileimage{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 120px;
+}
+
+.zero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.zero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 60px;
+    font-weight: 500;
+
+}
+
+.zero h1 span{
+    background:linear-gradient(267deg,#737f82 0.36%,#19cefe);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.zero p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.zero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.zero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    background:linear-gradient(267deg,#737f82 0.36%,#19cefe);
+}
+
+.zero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.atag{
+    color: white;
+    text-decoration: none;
+}
+
+.zero-connect:hover{
+    border: 2px solid #fff;
+}
+.zero-resume:hover{
+    border: 2px solid #19cefe;
+}
+
+
+
+@media(max-width:768px){
+    .profileimage{
+        margin-bottom: 20px;
+        width: 130px;
+    }
+    .zero h1{
+        margin-top: 20px;
+        width: 90%;
+        font-size: 30px;
+    }
+    .zero p{
+        width: 60%;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 10 0px;
+    }
+    .zero-action{
+        gap: 16px;
+        font-size: 11;
+        font-weight: 500px;
+        margin-bottom: 20px;
+    }
+    .zero-connect{
+        padding: 15px 18px;
+        border-radius: 40px;
+        font-size: 12px;
+    }
+    .zero-resume{
+        padding: 15px 18px;
+        border-radius: 40px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
